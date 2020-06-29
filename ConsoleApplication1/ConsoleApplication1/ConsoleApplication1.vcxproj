@@ -141,12 +141,16 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="student.cpp" />
     <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="student.h" />
     <ClInclude Include="Subject.h" />
+    <ClInclude Include="teacher.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ConsoleApplication1.rc" />

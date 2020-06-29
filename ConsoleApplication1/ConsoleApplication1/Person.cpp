@@ -2,8 +2,9 @@
 
 int Person::personsCount = 0;
 
-Person::Person()
+Person::Person(string n)
 {
+	name = n;
 	personsCount++;
 	id = personsCount;
 }

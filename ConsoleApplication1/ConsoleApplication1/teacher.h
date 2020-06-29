@@ -15,6 +15,6 @@ public:
 	void setworkingHours(int w);
 	int getworkingHours();
 
-
+	teacher(string n);
 };
 

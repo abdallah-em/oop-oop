@@ -19,3 +19,8 @@ int teacher::getworkingHours()
 {
     return workingHours;
 }
+
+teacher::teacher(string n) : Person(n)
+{
+
+}

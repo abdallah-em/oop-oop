@@ -25,7 +25,7 @@ public:
 	void setemail(string e);
 	string getemail();
 
-	Person();
+	Person(string n);
 	
 
 };
