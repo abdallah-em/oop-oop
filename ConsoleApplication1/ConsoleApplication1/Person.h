@@ -6,9 +6,13 @@ using namespace std;
 class Person
 {
 private:
-	string name, mobile, address, email;
 	int id;
+	static int personsCount;
+	string name, mobile, address, email;
 public:
+
+    int getid();
+
 	void setname(string n);
 	string getname();
 
@@ -21,8 +25,8 @@ public:
 	void setemail(string e);
 	string getemail();
 
-	void setid(int id);
-	int getid();
+	Person();
+	
 
 };
 
